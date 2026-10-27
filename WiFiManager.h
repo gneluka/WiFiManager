@@ -519,6 +519,9 @@ class WiFiManager
     // clean connect, always disconnect before connecting
     void          setCleanConnect(bool enable); // default false
 
+    // clean connect, always disconnect before connecting
+    void          setShowBackButton(bool enable); // default false
+
     // set custom menu items and order, vector or arr
     // see _menutokens for ids
     void          setMenu(std::vector<const char*>& menu);

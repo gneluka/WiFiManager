@@ -3078,6 +3078,14 @@ void WiFiManager::setCleanConnect(bool enable){
 }
 
 /**
+ * toggle _showBack, show back button on pages, default false
+ * @param {[type]} bool enable [description]
+ */
+void WiFiManager::setShowBackButton(bool enable){
+  _showBack = enable;
+}
+
+/**
  * [setConnectTimeout description
  * @access public
  * @param {[type]} unsigned long seconds [description]
